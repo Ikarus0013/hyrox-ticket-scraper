@@ -1,0 +1,31 @@
+# OS / editor
+.DS_Store
+.claude/
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Scraper output
+hyrox_tickets.json
+
+# Old script versions and debug experiments (kept locally, not published).
+# The main script is hyrox_scraper_final.py.
+hyrox_scraper.py
+hyrox_scraper_simple.py
+hyrox_scraper_working.py
+debug_*.py
+test_complete_flow.py
+test_final.py

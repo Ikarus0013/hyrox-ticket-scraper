@@ -1,0 +1,4 @@
+# Browser automation. Selenium 4.6+ downloads a matching ChromeDriver by itself.
+selenium>=4.15
+# Fallback driver download, used only if the Selenium driver setup fails.
+webdriver-manager>=4.0
